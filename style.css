@@ -1,10 +1,15 @@
-﻿body {padding-top : 80px;}
+﻿body {
+	padding-top : 80px;
+	margin-right: auto;
+	margin-left : auto;
+}
 nav{width:100%;}
+footer {clear:both;}
+section{padding-left: 20%;}
+
 .topmenu {position:fixed; top: 0px;}
 .sidemenu {width:30%; float:left;}
-footer {clear:both;}
 
-section{padding-left: 20%;}
 .button {
 display: inline-block;
 width:18%;
@@ -43,16 +48,4 @@ box-shadow: 2px 2px 3px 1px #666;
 }
 .button:hover {
 	background-color: #ff0f0f ;
-<<<<<<< HEAD
 }
-
-body {
-	padding-top : 80px;
-	margin-right: auto;
-	margin-left : auto;
-}
-section{padding-left:20%;}
-footer {clear:both;}
-=======
-}
->>>>>>> ac27a872917c27594cb3765659e8c85369d39801
