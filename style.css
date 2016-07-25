@@ -39,6 +39,10 @@ box-shadow: 2px 2px 3px 1px #666;
 	background-color: #ff0f0f ;
 }
 
-body {padding-top : 80px;}
-section{padding-left: 400px;}
+body {
+	padding-top : 80px;
+	margin-right: auto;
+	margin-left : auto;
+}
+section{padding-left:20%;}
 footer {clear:both;}
