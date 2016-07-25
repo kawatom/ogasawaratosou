@@ -1,4 +1,6 @@
-﻿.topmenu {position:fixed;}
+﻿body {
+padding-top : 80px;}
+.topmenu {position:fixed; top: 0px;}
 .sidemenu {width:30%; float:left;}
 footer {clear:both;}
 
