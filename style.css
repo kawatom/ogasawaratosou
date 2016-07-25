@@ -1,7 +1,7 @@
 ﻿body {padding-top : 80px;}
 nav{width:100%;}
 .topmenu {position:fixed; top: 0px;}
-.sidemenu {width:30%; float:left;}
+.sidemenu {width:20%; float:left;}
 footer {clear:both;}
 
 section{padding-left: 20%;}
