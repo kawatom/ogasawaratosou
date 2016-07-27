@@ -39,6 +39,7 @@ font-size:25px;
 .sidemenu {width:20%; float:left;}
 footer {clear:both;}
 
+.pic{width:45%}
 /****************ボタン関係*************/
 .button {
 display: inline-block;
