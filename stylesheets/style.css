@@ -3,6 +3,11 @@
 	margin-right: auto;
 	margin-left : auto;
 }
+section{
+	font-size:19px;
+	font-family:HG正楷書体-PRO;
+	
+}
 body.index {
 	padding-top : 0px;
 	margin : 0 auto;
@@ -34,7 +39,7 @@ margin-right:10px
 text-align: center;
 margin: 0 auto;
 float: left;
-font-family: "ＭＳ Ｐゴシック";
+font-family: "HG正楷書体-PRO";
 font-size:25px;
 }
 .topmenu_index {
