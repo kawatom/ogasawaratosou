@@ -2,12 +2,18 @@
 	padding-top : 80px;
 	margin-right: auto;
 	margin-left : auto;
+	font-family:"HG正楷書体-PRO";
 }
 section{
 	font-size:19px;
-	font-family:HG正楷書体-PRO;
 	
 }
+footer{
+	padding-top:100px;
+	width:100%;
+	color:#fff;
+	background-color: #999999 ;
+	}
 body.index {
 	padding-top : 0px;
 	margin : 0 auto;
@@ -54,7 +60,6 @@ margin-right:10px
 text-align: center;
 margin: 0 auto;
 float: left;
-font-family: "HG正楷書体-PRO";
 font-size:25px;
 }
 .topmenu_index {
