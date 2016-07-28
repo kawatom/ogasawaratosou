@@ -2,15 +2,12 @@
 	padding-top : 80px;
 	margin-right: auto;
 	margin-left : auto;
-	font-family:"HG正楷書体-PRO";
+	font-family:'ヒラギノ角ゴシック','HG正楷書体-PRO';
+	font-size:19px;
 }
 body.index {
 	padding-top : 0px;
 	margin : 0 auto;
-}
-section{
-	font-size:19px;
-	
 }
 section.telphone {
 	margin-right: 0px;
