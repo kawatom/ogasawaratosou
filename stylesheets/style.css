@@ -18,17 +18,19 @@ section.telphone {
 	float:right;
 	font-size:22px;
 }
+section.motto {
+	margin: 10px 30px;
+	font-size:25px;
+}
 .container {
 	width: 1000px;
 	margin: 0 auto;
 }
-
 img.zisseki {
 	width: 185px;
 	height: 185px;
 	margin: 5px;
 }
-
 nav{width:100%;}
 nav ul {
 list-style-type: none;
