@@ -113,7 +113,6 @@ box-shadow: 2px 2px 3px 1px #666;
 .button:hover {
 	background-color: #ff0f0f ;
 }
-<<<<<<< HEAD
 
 /*****************フッターメニュー**************/
 .f_button {
@@ -147,7 +146,7 @@ box-shadow: 2px 2px 3px 1px #666;
 }
 .f_button:hover {
 	background-color: #ff0f0f ;
-=======
+}
 /****************カルーセル*************/
 .article_slide {
   width: 100%;
@@ -162,5 +161,4 @@ box-shadow: 2px 2px 3px 1px #666;
   position: relative;
   right: 20px !important;
   z-index: 999999;
->>>>>>> 3a2a73354395c569a7b844946ba8dacb8db50fad
 }
