@@ -3,11 +3,26 @@
 		<meta charset="UTF-8" />
 		
 		<title>小笠原塗装株式会社</title>
-		
+
 		<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/slick.min.js"></script>
+    <script>
+$(document).ready(function() {
+  $('.slide_selector').slick({
+    infinite: true,
+    dots:true,
+    slidesToShow: 1,
+    centerMode: true, //要素を中央寄せ
+    centerPadding:'0px', //両サイドの見えている部分のサイズ
+    autoplay:true, //自動再生
+  });
+});
+    </script>
 		
 	</head>
-	
 	<body class="index">
 		<section class="container">
 <!---------------------------------------ロゴ用----------------------------------------------->
@@ -25,10 +40,26 @@
 
 
 <!---------------------------------------写真----------------------------------------------->
+  <br clear="both" />
 			<article>
-				<img src="images/gaiyoutop.jpg" alt="働く社員" width="100%" >
+        <div class="slide_selector article_slide">
+          <div>
+				    <img src="images/ude2.jpg" alt="腕" width="100%" />
+          </div>
+          <div>
+            <img src="images/muri.jpg" alt="muri" width="100%" />
+          </div>
+          <div>
+				    <img src="images/naiyotop.jpg" alt="屋根塗りの様子" width="100%" />
+          </div>
+          <div>
+				    <img src="images/gaiyoutop.jpg" alt="働く社員" width="100%" />
+          </div>
+          <div>
+				    <img src="images/zissekitop.jpg" alt="塗装例" width="100%" />
+          </div>
+        </div>
 			</article>
-
 <!---------------------------------------上のメニュー----------------------------------------------->
 			<nav class="topmenu_index">
 				<section class="topmenu_block">
@@ -57,19 +88,19 @@
 			社員数：4名<br>
 			<h2>社員紹介<h2>
 			<h3>名前<h3>
-			<img src="images/speed1.jpg" alt="ki" width="150" align="left";>
+			<img src="images/speed1.jpg" alt="ki" width="150" align="left">
 			一言
 			<br clear="left">
 			<h3>名前<h3>
-			<img src="images/speed2.jpg" alt="ki" width="150" align="left";>
+			<img src="images/speed2.jpg" alt="ki" width="150" align="left">
 			一言
 			<br clear="left">
 			<h3>名前<h3>
-			<img src="images/speed3.jpg" alt="ki" width="150" align="left";>
+			<img src="images/speed3.jpg" alt="ki" width="150" align="left">
 			一言
 			<br clear="left">
 			<h3>名前<h3>
-			<img src="images/speed4.jpg" alt="ki" width="150" align="left";>
+			<img src="images/speed4.jpg" alt="ki" width="150" align="left">
 			一言
 			<br clear="left">
 			<h2>社長あいさつ</h2>
@@ -81,21 +112,7 @@
 			
 <!---------------------------------フッター-------------------------------------------->
 			<footer>
-<<<<<<< HEAD
-				<nav>
-					<ul>
-						<li><a href="index.html" class="f_button">HOME</a></li>
-						<li><a href="tokutyo.html" class="f_button">会社の特徴</a></li>
-						<li><a href="naiyo.html" class="f_button">業務内容</a></li>
-						<li><a href="gaiyo.html" class="f_button">会社概要</a></li>
-						<li><a href="zisseki.html" class="f_button">施工実績</a></li>
-					</ul>
-				</nav>
-
-				Copyright (C) 2016 M&Co All Rights Reserved.
-=======
 				Copyright (C) 2016 Ogasawarapaint All Rights Reserved.
->>>>>>> 3a2a73354395c569a7b844946ba8dacb8db50fad
 			</footer>
 		</section>
 	</body>
