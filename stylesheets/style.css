@@ -12,7 +12,12 @@ body.index {
 	padding-top : 0px;
 	margin : 0 auto;
 }
-
+section.telphone {
+	margin-right: 0px;
+	margin-top: 20px;
+	float:right;
+	font-size:22px;
+}
 .container {
 	width: 1000px;
 	margin: 0 auto;
@@ -32,7 +37,7 @@ padding-left: 0;
 nav ul li {
 display: inline;
 width: 100%;
-margin-right:auto;
+margin-right:10px
 }
 .topmenu {position:fixed; top:0px;}
 .topmenu_block {
