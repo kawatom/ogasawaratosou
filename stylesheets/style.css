@@ -37,8 +37,12 @@ img.back {
 	margin: 30px 0px;
 }
 nav{width:100%;}
-.rogo{width:50%;
+.rogo{
+	width:50%;
 	float:left;
+}
+nav.footer_menu {
+	
 }
 nav ul {
 list-style-type: none;
@@ -64,7 +68,6 @@ position:absolute;
 .pic{width:45%}
 
 footer{
-	padding-top:100px;
 	width:100%;
 	color:#fff;
 	background-color: #999999 ;
@@ -110,6 +113,41 @@ box-shadow: 2px 2px 3px 1px #666;
 .button:hover {
 	background-color: #ff0f0f ;
 }
+<<<<<<< HEAD
+
+/*****************フッターメニュー**************/
+.f_button {
+	display: inline-block;
+	width: 198px;
+	height: 54px;
+	margin: 0px 1px 10px 1px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 54px;
+	outline: none;
+	float:left;
+	background-color: #999999;
+	color: #fff;
+}
+.f_button::before,
+.f_button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.f_button,
+.f_button::before,
+.f_button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.f_button:hover {
+	background-color: #ff0f0f ;
+=======
 /****************カルーセル*************/
 .article_slide {
   width: 100%;
@@ -124,4 +162,5 @@ box-shadow: 2px 2px 3px 1px #666;
   position: relative;
   right: 20px !important;
   z-index: 999999;
+>>>>>>> 3a2a73354395c569a7b844946ba8dacb8db50fad
 }
