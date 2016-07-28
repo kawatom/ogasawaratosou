@@ -4,19 +4,13 @@
 	margin-left : auto;
 	font-family:"HG正楷書体-PRO";
 }
-section{
-	font-size:19px;
-	
-}
-footer{
-	padding-top:100px;
-	width:100%;
-	color:#fff;
-	background-color: #999999 ;
-	}
 body.index {
 	padding-top : 0px;
 	margin : 0 auto;
+}
+section{
+	font-size:19px;
+	
 }
 section.telphone {
 	margin-right: 0px;
@@ -66,11 +60,16 @@ font-size:25px;
 	float:left;
 	margin: 0 auto;
 }
-
-.sidemenu {width:20%; float:left;}
-footer {clear:both;}
-
 .pic{width:45%}
+
+footer{
+	padding-top:100px;
+	width:100%;
+	color:#fff;
+	background-color: #999999 ;
+	clear:both;
+}
+
 /****************ボタン関係*************/
 .button {
 display: inline-block;
