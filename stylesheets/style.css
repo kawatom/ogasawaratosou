@@ -38,25 +38,37 @@ img.back {
 }
 h2{
 /*見出し１*/
-    border-right:10px solid #ff0f0f; 
+/*  border-right:10px solid #ff0f0f; 
     border-left:10px solid #ff0f0f; 
     padding: 5px 5px 5px 15px; 
     background: #999; 
     border-radius: 7px; 
-    -moz-border-radius: 7px; /* FireFox */ 
-    -webkit-border-radius: 7px;/* Chrome & Safari */ 
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
     font-size:140%; 
-    color:#fff; 
+    color:#fff; /*
 
-/*見出し２*/
-/*  background-color: #999999;/*背景色*/
-/*  color: #fff;/*文字色*/
-/*  width: 100%;/*幅*/
-/*  padding: 2px 1em;
-  border-left: double 17px #dc0000;/*左の二本線*/
-/*  border-right: dashed 3px #fff;/*右の点線*/
-/*  letter-spacing: 0.2em;/*文字間隔*/
+/*見出し2*/
+/*    border-top:2px solid #dc0000;
+    border-right:2px solid #dc0000;
+    border-bottom:2px solid #dc0000; 
+    border-left:10px solid #dc0000; 
+    padding: 5px 5px 5px 15px; 
+    background: #fff; 
+    font-size:140%; 
+    color:#000; */
 
+/*見出し3*/
+/*    border-bottom:2px solid #dc0000; */
+    border-left:10px solid #dc0000; 
+    padding: 5px 5px 5px 15px; 
+    background: #ddd;  
+    color:#000; 
+
+/*見出し4*/
+ 
+
+/*基本色　　ボタン１#dc0000　ボタン２#ff0f0f　フッター#999*/
 }
 nav{width:100%;}
 .rogo{
