@@ -37,8 +37,9 @@ img.back {
 	margin: 30px 0px;
 }
 h2{
+/*見出し１*/
     border-right:10px solid #ff0f0f; 
-    border-left:20px solid #ff0f0f; 
+    border-left:10px solid #ff0f0f; 
     padding: 5px 5px 5px 15px; 
     background: #999; 
     border-radius: 7px; 
@@ -46,6 +47,16 @@ h2{
     -webkit-border-radius: 7px;/* Chrome & Safari */ 
     font-size:140%; 
     color:#fff; 
+
+/*見出し２*/
+/*  background-color: #999999;/*背景色*/
+/*  color: #fff;/*文字色*/
+/*  width: 100%;/*幅*/
+/*  padding: 2px 1em;
+  border-left: double 17px #dc0000;/*左の二本線*/
+/*  border-right: dashed 3px #fff;/*右の点線*/
+/*  letter-spacing: 0.2em;/*文字間隔*/
+
 }
 nav{width:100%;}
 .rogo{
