@@ -50,7 +50,7 @@ img.back {
 }
 h1{font-size:20px;}
 h2{
-/*見出し例１*/
+/*見出し１*/
 /*  border-right:10px solid #ff0f0f; 
     border-left:10px solid #ff0f0f; 
     padding: 5px 5px 5px 15px; 
@@ -61,7 +61,7 @@ h2{
     font-size:140%; 
     color:#fff; /*
 
-/*見出し例2*/
+/*見出し2*/
 /*    border-top:2px solid #dc0000;
     border-right:2px solid #dc0000;
     border-bottom:2px solid #dc0000; 
@@ -71,12 +71,15 @@ h2{
     font-size:140%; 
     color:#000; */
 
-/*見出し例3*/
+/*見出し3*/
 /*    border-bottom:2px solid #dc0000; */
     border-left:10px solid #dc0000; 
     padding: 5px 5px 5px 15px; 
     background: #ddd;  
-    color:#000;  
+    color:#000; 
+
+/*見出し4*/
+ 
 
 /*基本色　　ボタン１#dc0000　ボタン２#ff0f0f　フッター#999*/
 }
