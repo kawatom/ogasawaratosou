@@ -10,6 +10,36 @@
 			ggmap iframe, ggmap object,
 			ggmap embed{possition: absolute; top: 0; left: 0; width: 100%;
 					height: 100%;}
+
+	table.gaiyo {
+	border-collapse: collapse;
+	text-align: left;
+	border-left: 1px solid #ccc;
+	width:100%;
+}
+th.k2{ 
+	border-top:#dc0000 4px solid;
+} 
+table.gaiyo th {
+	width: 150px;
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: #eee;
+}
+td.k2{
+	 border-top: #ccc 4px solid;
+}
+table.gaiyo td {
+	padding: 10px;
+	text-align: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
 		</style>
 		<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
 
@@ -85,49 +115,62 @@ $(document).ready(function() {
 <!-------------------------------以下内容---------------------------------------->
 			<section class="naiyo">
 				<h2>会社概要</h2>
-				<table border=1 style="font-size: 20px;" align="center">
-				<tr><td >会社名</td><td>小笠原塗装株式会社</td></tr>
-				<tr><td>所在地</td><td>青森県五所川原市高野字広野1</td></tr>
-				<tr><td>郵便番号</td><td>〒037-29-2204</td></tr>
-				<tr><td>FAX</td><td>0173-26-7204</td></tr>
-				<tr><td>E-mail</td><td>phsxp823@ybb.ne.jp</td></tr>
-				<tr><td>代表取締役</td><td>小笠原崇文</td></tr>
-				<tr><td>社員数</td><td>4名</td></tr>
+				<table class="gaiyo">
+				<tr><th class="k2">会社名</th>
+				<td class="k2">小笠原塗装株式会社</td></tr>
+				<tr><th>所在地</th><td>
+							〒037-0632<br>
+							青森県五所川原市高野字広野1
+						</td></tr>
+				<tr><th>FAX</th><td>0173-26-7204</td></tr>
+				<tr><th>E-mail</th><td>phsxp823@ybb.ne.jp</td></tr>
+				<tr><th>代表取締役</th><td>小笠原崇文</td></tr>
+				<tr><th>社員数</th><td>4名</td></tr>
 				</table>
+
 				<h2>社員紹介</h2>
-				<table cellspacing="15" align="center">
-				<tr><td><h3>名前</h3></td><td></td><td><h3>名前</h3></td><td></td></tr>
+				<table style="float:left; margin-right:300px" >
+				<tr><td><h3>名前</h3></td><td></td></tr>
 				<tr>
 				<td><img src="images/speed1.jpg" alt="ki" width="150"></td>
 				<td>
 					一言
 				</td>
+				</tr>
+				<tr><td><h3>名前</3></td><td></td></tr>
+				<tr>
 				<td><img src="images/speed2.jpg" alt="ki" width="150"></td>
 				<td>
 					一言
 				</td>
 				</tr>
-				<tr><td><h3>名前</h3></td><td></td><td><h3>名前</h3></td><td></td></tr>
+				</table>
+
+				<table >
+				<tr><td><h3>名前</h3></td><td></td></tr>
 				<tr>
 				<td><img src="images/speed3.jpg" alt="ki" width="150" ></td>
 				<td>
 					一言
 				</td>
+				</tr>
+				<tr><td><h3>名前</h3></td><td></td></tr>
+				<tr>
 				<td><img src="images/speed4.jpg" alt="ki" width="150" ></td>
 				<td>
 					一言
 				</td>
 				</tr>
 				</table>
-				<h2>社長あいさつ</h2>
 
-				<article>
-					<img class ="pic" src="images/syatyou.jpg" alt="社長の小笠原崇文さん">
-				</article>
+				<h2>社長あいさつ</h2>	
+				<img  src="images/syatyou.jpg" alt="社長の小笠原崇文さん" width="400" align="left">
+					やあ
+				<br clear="left">
 
 				<h2>所在地図</h2>
 				<div class="ggmap" align="center">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8722857578013!2d140.5267687154059!3d40.74283567932864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ba63cb70588d9%3A0x7205039143027eb1!2z44CSMDM3LTA2MzIg6Z2S5qOu55yM5LqU5omA5bed5Y6f5biC6auY6YeO5bqD6YeO77yR!5e0!3m2!1sja!2sjp!4v1469689762326" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.872205888794!2d140.52655359918623!3d40.74283743667535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9ba63cb70588d9%3A0x7205039143027eb1!2z44CSMDM3LTA2MzIg6Z2S5qOu55yM5LqU5omA5bed5Y6f5biC6auY6YeO5bqD6YeO77yR!5e0!3m2!1sja!2sjp!4v1470028285801" width="900" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</section>
 <!---------------------------------フッター-------------------------------------------->
