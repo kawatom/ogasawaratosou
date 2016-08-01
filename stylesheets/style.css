@@ -17,7 +17,8 @@ section.telphone {
 	font-size:22px;
 }
 .naiyo{
-	padding-top:80px;}
+	padding-top:80px;
+}
 section.motto {
 	margin: 150px 30px 0 0;
 	font-size:25px;
@@ -87,22 +88,13 @@ nav{width:100%;}
 	width:50%;
 	float:left;
 }
-nav.footer_menu {
-	
-}
 nav ul {
 list-style-type: none;
-padding-left: 0;
+padding: 0;
 }
 nav ul li {
 display: inline;
 width: 100%;
-}
-footer ul li a:first-child {
-	margin-left: 0px;
-}
-footer ul li a:last-child {
-	margin-right: 0px;
 }
 .topmenu {position:fixed; top:0px;}
 .topmenu_block {
@@ -121,8 +113,11 @@ position:absolute;
 footer{
 	width:100%;
 	color:#fff;
-	background-color: #999999 ;
+	background-color: #999999;
 	clear:both;
+}
+.copyright {
+	padding: 0px 0px 20px 20px;
 }
 
 /****************ボタン関係*************/
@@ -168,9 +163,8 @@ box-shadow: 2px 2px 3px 1px #666;
 /*****************フッターメニュー**************/
 .f_button {
 	display: inline-block;
-	width: 195px;
+	width: 194px;
 	height: 54px;
-	margin: 0px 10px;
 	text-align: center;
 	text-decoration: none;
 	line-height: 54px;
@@ -196,6 +190,9 @@ box-shadow: 2px 2px 3px 1px #666;
 }
 .f_button:hover {
 	background-color: #ff0f0f ;
+}
+footer a:last-child {
+	margin-right: 1px;
 }
 /****************カルーセル*************/
 .article_slide {
