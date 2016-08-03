@@ -109,7 +109,12 @@ position:absolute;
 	margin: 0 auto;
 }
 .pic{width:45%}
-
+.banner {
+	width: 300px;
+	height: 300px;
+	margin: 20px 16px;
+	float: left;
+}
 footer{
 	width:100%;
 	color:#fff;
@@ -199,7 +204,7 @@ footer a:last-child {
 .otoi_button {
 	width:100%;
 	height: 54px;
-	margin-bottom: 30px;
+	margin-top: 20px;
 	text-align: center;
 	text-decoration: none;
 	line-height: 54px;
