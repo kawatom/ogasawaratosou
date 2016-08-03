@@ -232,7 +232,7 @@ footer a:last-child {
 	transition: all .3s;
 }
 .otoi_button {
-	background-color: #dc0000 ;;
+	background-color: #dc0000 ;
 	color: #fff;
 }
 .otoi_button:hover {
