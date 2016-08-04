@@ -210,7 +210,23 @@ footer a:last-child {
 .otoi_button:hover {
 	background-color: #ff0f0f ;
 }
-
+/************お問い合わせページ送信ボタン*************/
+.sosin { 
+	padding:16px 32px;
+	font-size:16px;
+	width:100px;
+	height:55px;
+	border-radius:7px; 
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-top:　1px solid #a9a9a9;　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+	border-left:　2px solid #a9a9a9;　　
+	border-right:　1px solid #a9a9a9;
+	border-bottom:　1px solid #a9a9a9;
+}
+.sosin:hover {
+	background-color: #87ceeb ;
+}
 /****************カルーセル*************/
 .article_slide {
   width: 100%;
